@@ -1,1 +1,7 @@
-<p>gif-list-item works!</p>
+<div>
+  @for (imagen of imagenes(); track $index) {
+    <img class="h-full w-full rounded-lg object-cover"
+         src="{{ imagen.url }}"
+         alt="">
+  }
+</div>

@@ -20,13 +20,13 @@ export class GifsSideMenuOptions {
     icon: 'fa-solid fa-chart-line',
     label: 'Trending',
     subLabel: 'Gifs Populares',
-    route: '/dashboard/trending'
+    route: '/dashbord/trending'
   },
   {
     icon: 'fa-solid fa-magnifying-glass',
     label: 'Buscador',
     subLabel: 'Buscar gifs',
-    route: '/dashboard/search'
+    route: '/dashbord/search'
   },
  ];
 

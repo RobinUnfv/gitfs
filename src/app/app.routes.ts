@@ -3,15 +3,15 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
   {
     path: 'dashbord',
-    loadComponent: () => import('./gifs/components/dashboard-page/dashboard-page'),
+    loadComponent: () => import('./gifs/pages/dashboard-page/dashboard-page'),
     children: [
       {
         path: 'trending',
-        loadComponent: () => import('./gifs/components/trending-page/trending-page'),
+        loadComponent: () => import('./gifs/pages/trending-page/trending-page'),
       },
       {
         path: 'search',
-        loadComponent: () => import('./gifs/components/search-page/search-page'),
+        loadComponent: () => import('./gifs/pages/search-page/search-page'),
       },
       {
         path: '**',
